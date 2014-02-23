@@ -24,7 +24,7 @@
     <Language code="es-US" />
     <Language code="es-UY" />
   </Languages>
-  <App xmlns="" ProductID="{4e955c7a-0a86-42e2-94e5-1802959dd6d0}" Title="Deck" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Manu Mateos" Description="¿Alguna vez te has visto en necesidad de ua baraja de cartas para extraer una? Con esta aplicación de Windows Phone podrás hacerlo en cualquier lugar.&#xD;&#xA;&#xD;&#xA;Únicamente tienes que abrirla y automáticamente te mostrará una carta extraída de la baraja española (" Publisher="Manu Mateos" PublisherID="{45d2c934-c82d-4ba2-be9e-2f98319f6b76}">
+  <App xmlns="" ProductID="{4e955c7a-0a86-42e2-94e5-1802959dd6d0}" Title="Deck" RuntimeType="Silverlight" Version="1.0.1.0" Genre="apps.normal" Author="Manu Mateos" Description="¿Alguna vez te has visto en necesidad de ua baraja de cartas para extraer una? Con esta aplicación de Windows Phone podrás hacerlo en cualquier lugar.&#xD;&#xA;&#xD;&#xA;Únicamente tienes que abrirla y automáticamente te mostrará una carta extraída de la baraja española (" Publisher="Manu Mateos" PublisherID="{45d2c934-c82d-4ba2-be9e-2f98319f6b76}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
     </Capabilities>

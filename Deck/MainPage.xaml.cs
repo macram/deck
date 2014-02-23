@@ -41,6 +41,10 @@ namespace Deck
         {
             int sacado = baraja[cartasSacadas];
             cartasSacadas++;
+            if (cartasSacadas == 39)
+            {
+                Boton.Content = "Barajar";
+            }
             if (cartasSacadas == 40)
             {
                 barajarCartas();
@@ -68,6 +72,7 @@ namespace Deck
                 }
             }
             cartasSacadas = 0;
+            Boton.Content = "Sacar carta";
         }
 
         private string getPalo(int i)
@@ -75,10 +80,10 @@ namespace Deck
             String toReturn = "";
             switch (i)
             {
-                case 0: toReturn = "Oros"; break;
-                case 1: toReturn = "Copas"; break;
-                case 2: toReturn = "Espadas"; break;
-                case 3: toReturn = "Bastos"; break;
+                case 0: toReturn = "🔆 Oros"; break;
+                case 1: toReturn = "🏆 Copas"; break;
+                case 2: toReturn = "🔪 Espadas"; break;
+                case 3: toReturn = "🍡 Bastos"; break;
             }
             return toReturn;
         }
